@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mayhem.TDSVersionApi", "Mayhem.TDSVersionApi\Mayhem.TDSVersionApi.csproj", "{532024C6-6F74-4170-80EB-C0B5D16F964A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mayhem.ApplicationSetup", "Mayhem.ApplicationSetup\Mayhem.ApplicationSetup.csproj", "{8A40E53C-1A58-4709-BB02-8BB2B203B31D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mayhem.Bl", "Mayhem.Bl\Mayhem.Bl.csproj", "{4E371B88-EC03-49E9-8477-93A4A164A4D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mayhem.Configuration", "Mayhem.Configuration\Mayhem.Configuration.csproj", "{D4BCA33E-1ECD-468F-A55C-56C18D446279}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mayhem.Dal", "Mayhem.Dal\Mayhem.Dal.csproj", "{1A0E0F21-5582-430D-A3C2-7C7E4EA2F9D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mayhem.Dal.Dto", "Mayhem.Dal.Dto\Mayhem.Dal.Dto.csproj", "{1F9E0BD5-CE00-46E1-AD07-C207597ED3FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mayhem.Util", "Mayhem.Util\Mayhem.Util.csproj", "{A58E5C34-D99F-4011-AD1A-922BCD10A800}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{532024C6-6F74-4170-80EB-C0B5D16F964A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{532024C6-6F74-4170-80EB-C0B5D16F964A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{532024C6-6F74-4170-80EB-C0B5D16F964A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{532024C6-6F74-4170-80EB-C0B5D16F964A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A40E53C-1A58-4709-BB02-8BB2B203B31D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A40E53C-1A58-4709-BB02-8BB2B203B31D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A40E53C-1A58-4709-BB02-8BB2B203B31D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A40E53C-1A58-4709-BB02-8BB2B203B31D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E371B88-EC03-49E9-8477-93A4A164A4D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E371B88-EC03-49E9-8477-93A4A164A4D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E371B88-EC03-49E9-8477-93A4A164A4D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E371B88-EC03-49E9-8477-93A4A164A4D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4BCA33E-1ECD-468F-A55C-56C18D446279}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4BCA33E-1ECD-468F-A55C-56C18D446279}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4BCA33E-1ECD-468F-A55C-56C18D446279}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4BCA33E-1ECD-468F-A55C-56C18D446279}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A0E0F21-5582-430D-A3C2-7C7E4EA2F9D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A0E0F21-5582-430D-A3C2-7C7E4EA2F9D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A0E0F21-5582-430D-A3C2-7C7E4EA2F9D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A0E0F21-5582-430D-A3C2-7C7E4EA2F9D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F9E0BD5-CE00-46E1-AD07-C207597ED3FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F9E0BD5-CE00-46E1-AD07-C207597ED3FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F9E0BD5-CE00-46E1-AD07-C207597ED3FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F9E0BD5-CE00-46E1-AD07-C207597ED3FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A58E5C34-D99F-4011-AD1A-922BCD10A800}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A58E5C34-D99F-4011-AD1A-922BCD10A800}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A58E5C34-D99F-4011-AD1A-922BCD10A800}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A58E5C34-D99F-4011-AD1A-922BCD10A800}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66197C00-2014-4715-BBA2-C220CEAD9828}
+	EndGlobalSection
+EndGlobal
