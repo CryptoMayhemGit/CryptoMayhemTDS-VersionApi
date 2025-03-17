@@ -1,20 +1,63 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# Mayhem.TDSVersionApi
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+## Overview
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+Mayhem.TDSVersionApi is a .NET 6 Web API project designed to provide game version details. It includes an endpoint to retrieve the latest game version and its build URL.
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+## Features
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+- Retrieve the latest game version details.
+- Built with ASP.NET Core and C# 10.0.
+
+## Installation
+
+1. Clone the repository:
+    
+git clone https://github.com/your-repo/Mayhem.TDSVersionApi.git
+
+2. Navigate to the project directory:
+
+cd Mayhem.TDSVersionApi
+
+3. Restore the dependencies:
+
+dotnet restore
+
+## Usage
+
+1. Build the project:
+
+dotnet build
+	
+2. Run the project:
+    dotnet run
+	
+3. Access the API endpoint:
+    - `GET /api/GameVersion/GameVersion`: Retrieves the latest game version details.
+
+## API Endpoints
+
+### Get Game Version
+
+- **URL:** `/api/GameVersion/GameVersion`
+- **Method:** `GET`
+- **Response:**
+    
+{
+    "latestGameVersion": "string",
+    "buildURL": "string"
+}
+
+
+## Dependencies
+
+- .NET 6
+- ASP.NET Core
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request for any changes.
+
+## License
+
+This project is licensed under the MIT License. The license belongs to Mayhem Games OÜ.
